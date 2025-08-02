@@ -1,6 +1,8 @@
-import "@/styles/globals.css";
+import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-
+import Navbar from "@/components/Navbar";
+import Posts from "@/components/Posts";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,6 +14,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function Home() {
+  return (
+    <div>About</div>
+  );
+
 }
