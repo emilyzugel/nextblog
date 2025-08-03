@@ -1,6 +1,6 @@
 function Posts ({children}){
   return (
-    <div className="bg-gray-900 flex justify-center min-h-screen">
+    <div className="bg-white flex justify-center min-h-screen">
           <div className="p-8 w-full max-w-7xl">
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <li className="flex bg-gray-400 p-4 items-center justify-center">
