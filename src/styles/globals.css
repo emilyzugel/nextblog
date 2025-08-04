@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+.card {
+  @apply bg-white
+  shadow-lg rounded-lg
+  flex
+  justify-center
+  items-center
+  p-6 m-4
+  transition-all
+  ease-in-out
+  hover:shadow-2xl;
+}
+
+
+.card-article{
+  @apply p-2 flex flex-col items-center text-center
+}
+
+.card-title{
+  @apply text-lg
+}
+
+.card-p{
+  @apply text-sm
+  pb-10
+}
+
+.card-seemore{
+  @apply
+  shadow-lg
+  hover:scale-108
+  hover:bg-black
+  hover:text-white
+  bg-white
+  px-10 py-3
+  rounded-lg
+  border-2 border-gray-300
+}
